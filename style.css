@@ -1,0 +1,98 @@
+/* Global Styles */
+* {
+    font-family: "Englebert", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(135, 203, 135);
+    color: white;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Header Styles */
+header {
+    height: 100px;
+    background-color: rgb(106, 153, 106);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.navbar {
+    background-color: rgb(106, 153, 106);
+    font-size: larger;
+    display: flex;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: rgb(69, 101, 76);
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Vertically center the images */
+}
+
+.image1,
+.image2 {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.image2 {
+
+    margin-left: 20 px;
+    /* Adjust this value as needed to add space between the images */
+    order: 1;/
+}
+
+.right {
+    float: right;
+    inline-size: 600px;
+    line-height: 20px;
+    box-sizing: border-box;
+    margin-right: 70px;
+}
+button{
+    float: right;
+    
+    background-color: rgb(106, 153, 106);
+}
