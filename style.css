@@ -72,6 +72,7 @@ main {
     align-items: center;
 }
 .image1 .image__title{
+    list-style-type: none;
     text-decoration: none;
     position: absolute;
     bottom: 0;
@@ -103,6 +104,7 @@ text-decoration: none;
     align-items: center;
 }
 .image2 .image__title2{
+    list-style-type: none;
     text-decoration: none;
     position: absolute;
     bottom: 0;

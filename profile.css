@@ -57,15 +57,14 @@ body {
     min-height: 100vh;
     position: relative;
 }
-main {
-    padding-top: 25px;
+.container{
+    overflow: auto;
 }
-p{
-    display: flexbox;
-    margin-left: 925px;
+p {
     inline-size: 500px;
     line-height: 20px;
     float: right;
-    box-sizing: border-box;
-    margin-top: 20px;
+}
+img {
+    float: left;
 }

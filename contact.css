@@ -52,12 +52,37 @@ header {
     background-color: rgb(69, 101, 76);
 }
 
-main {
-    display: flex;
-    text-align: center;
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.socials img {
-    display: flex;
-    margin: 30px;
+
+h1 {
+    color: #333;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 
