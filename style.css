@@ -62,7 +62,6 @@ main {
 }
 
 .image1, .image2 {
-    list-style-type: none;
     position: relative;
     margin: 20px;
 }

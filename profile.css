@@ -20,7 +20,7 @@ header {
     padding: 0 20px;
 }
 
-p{
+h1{
     font-size: x-large;
 }
 
@@ -35,12 +35,10 @@ p{
     display: flex;
     float: right;
 }
-
 .navbar ul {
     list-style-type: none;
     display: flex;
 }
-
 .navbar a {
     color: white;
     text-decoration: none;
@@ -48,7 +46,6 @@ p{
     display: block;
     
 }
-
 .navbar a:hover {
     background-color: rgb(69, 101, 76);
 }
@@ -63,6 +60,12 @@ body {
 main {
     padding-top: 25px;
 }
-.right{
+p{
+    display: flexbox;
+    margin-left: 925px;
+    inline-size: 500px;
+    line-height: 20px;
     float: right;
+    box-sizing: border-box;
+    margin-top: 20px;
 }
