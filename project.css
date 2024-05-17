@@ -26,7 +26,8 @@ header {
     justify-content: space-between;
     padding: 0 20px;
 }
-p{
+header p{
+    text-align: center;
     font-size: x-large;
 }
 
@@ -64,26 +65,26 @@ main {
     display: flex;
     text-align: center;
 }
-p{
-    padding: 12px;
-}
 
 .images{
     display: flex;
 }
-.imageleft{
+.imagesleft{
     padding: 12;
     margin-right: 0;
-    margin-top: 90px;
+
 }
 p{
-    padding: 12;
+    font-size: x-large;
+    line-height: 30px;
+    padding: 6px;
 }
 .imageright{
-
     padding: 12;
     margin-left: 210px;
 }
 p{
-    padding: 12;
+    font-size: x-large;
+    line-height: 30px;
+    padding: 6px;
 }
