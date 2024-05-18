@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url('/1/BG.png') no-repeat center center fixed; 
+    background: url('1/BG.png') no-repeat center center fixed; 
     background-size: cover;
     background-color: rgb(135, 203, 135);
     color: white;
