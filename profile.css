@@ -60,6 +60,9 @@ body {
 .container{
     overflow: auto;
 }
+img{
+    margin-left: 10px;
+}
 p {
     inline-size: 500px;
     line-height: 20px;
